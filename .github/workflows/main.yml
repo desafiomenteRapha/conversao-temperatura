@@ -37,8 +37,8 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            fabricioveronez/conversao-temperatura:v${{ github.run_number }}
-            fabricioveronez/conversao-temperatura:latest
+            lfogaca34/conversao-temperatura:v${{ github.run_number }}
+            lfogaca34/conversao-temperatura:latest
 
   CD:
     runs-on: ubuntu-latest
